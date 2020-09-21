@@ -141,6 +141,14 @@ runResults <- TUWmodel::TUWmodel(prec  = basinObsTS$Ptot[indRun],
                                  area  = 1, # to select the lumped model
                                  param = param)
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE = ", round(1 - kgeEval(obse   = basinObsTS$Qmm[indRun],
                                           simu   = runResults$q[1,],

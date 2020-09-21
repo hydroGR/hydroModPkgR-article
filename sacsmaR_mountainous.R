@@ -183,6 +183,14 @@ runResults <- sacsmaR::sacSma(par  = param[11:26], # hydro parameters
                               prcp = precipLiquid, 
                               pet  = basinObsTS$PET[indRun])$tot
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE = ", round(1-kgeEval(obse   = basinObsTS$Qmm[indRun], 
                                         simu   = runResults, 

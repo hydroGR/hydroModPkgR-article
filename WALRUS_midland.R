@@ -147,6 +147,14 @@ name <-  "one_parameter_set"
 ## Run the model 
 runResults <- WALRUS::WALRUS_loop(pars = param)
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE =", round(1 - kgeEval(obse   = dataPeriod$Q,
                                          simu   = runResults$Q,

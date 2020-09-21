@@ -178,6 +178,14 @@ runResults <- topmodel::topmodel(parameters = param,
                                  ETp        = basinObsTS$PET[indRun]*0.001,    #in meters per time step
                                  verbose    = TRUE)  
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE = ", round(1-kgeEval(obse   = basinObsTS$Qmm[indRun],
                                         simu   = as.vector(runResults$Q)*1000, # in mm/d

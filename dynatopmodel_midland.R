@@ -233,6 +233,14 @@ runResults <- dynatopmodel::run.dtm(groups        = disc$groups,
                                     graphics.show = FALSE, 
                                     max.q         = 1 ) 
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE = ", round(1 - kgeEval(obse   = Qobs, 
                                           simu   = runResults, 

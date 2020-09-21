@@ -174,6 +174,14 @@ runResults <- hydromad::hydromad(DATA    = dataPeriod,
                                  f       = param[8],  e       = param[9],  d   = param[10],
                                  tau_s   = param[11], tau_q   = param[12], v_s = param[13]) 
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE =", round(hydromad::hmadstat("KGE")(Q = dataPeriod$Q[-c(1:365)],              # Without the warm-up period
                                                        X = runResults$fitted.values[-c(1:365)]), # Without the warm-up period

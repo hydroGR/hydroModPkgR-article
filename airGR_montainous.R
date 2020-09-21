@@ -151,6 +151,14 @@ runResults <- airGR::RunModel_CemaNeigeGR4J(InputsModel   = inputsModel,
                                             RunOptions  = runOptionsEval,
                                             Param       = param)
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## Evaluate simulations by calculating the KGE criterion (many other evaluations are possible such as uncertainty analysis)
 outputsCrit <- airGR::ErrorCrit_KGE(InputsCrit   = inputsCritEval,
                                     OutputsModel = runResults)

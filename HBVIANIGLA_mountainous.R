@@ -159,6 +159,14 @@ runResults <- HBV.IANIGLA::UH(model = 1,                # To select the triangul
                               Qg    = matrix(data = resRout[, "Qg"], ncol = 1), 
                               param = param[9])
 
+
+
+
+
+## =========================================================================
+## -------- Step 5: model run evaluation
+## =========================================================================
+
 ## KGE value
 message(paste("KGE = ", round(1-kgeEval(simu   = runResults,
                                         obse   = basinObsTS$Qmm[indRun], 

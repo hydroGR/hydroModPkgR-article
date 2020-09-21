@@ -76,7 +76,7 @@ print(summary(basinObsTS[indRun, ]))
 
 ## =========================================================================
 ## -------- Step 1.3: spatial distribution preprocessing work:
-##                  topographic index and delay function
+##                    topographic index and delay function
 ## =========================================================================
 
 ## Display DEM to check resolution

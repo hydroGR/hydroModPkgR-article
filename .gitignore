@@ -1,3 +1,6 @@
+# Project file
+*.Rproj
+
 # History files
 .Rhistory
 .Rapp.history
@@ -10,6 +13,14 @@
 
 # Example code in package build process
 *-Ex.R
+
+# Input files
+*.txt
+*.tif
+
+# Output files for the WALRUS R package
+/figures
+/output
 
 # Output files from R CMD build
 /*.tar.gz

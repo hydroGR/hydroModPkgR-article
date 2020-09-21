@@ -1,13 +1,13 @@
 # hydroModPkgR-article
 
-Example codes ro run 8 [hydrological modelling R packages](https://CRAN.R-project.org/view=Hydrology).
+Example codes to run 8 [hydrological modelling R packages](https://CRAN.R-project.org/view=Hydrology).
 Each script enables application of the models on a simple hydrology example.
 
 The input datasets are not provided, but each package includes at least one example dataset.
 
 Only one parameter set is tested. Parameter estimation and uncertainty analysis procedures can be applied within the R environnement using the available features (embedded in some of the hydrological modelling packages or in other packages).
 
-All scripts are based on the same pattern :
+All scripts are based on the same pattern:
 
 1. data formatting
 2. parameter set definition
@@ -27,7 +27,7 @@ topmodel     | [Buytaert, 2018](https://CRAN.R-project.org/package=topmodel)|
 TUWmodel     | [Parajka et al., 2007](https://doi.org/10.1002/hyp.6253); [Viglione and Parajka, 2020](https://CRAN.R-project.org/package=TUWmodel) |
 WALRUS       | [Brauer et al., 2014a](https://doi.org/10.5194/gmd-7-2313-2014), [2014b](https://doi.org/10.5194/hess-18-4007-2014); [Brauer et al., 2017](https://github.com/ClaudiaBrauer/WALRUS) |
 
-To cite these scripts : https://doi.org/10.15454/3PPKCL 
+To cite these scripts: https://doi.org/10.15454/3PPKCL 
 
 For more details about hydrological modelling R packages, see Astagneau et al. (submitted).
 

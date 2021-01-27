@@ -29,5 +29,5 @@ WALRUS       | [Brauer et al., 2014a](https://doi.org/10.5194/gmd-7-2313-2014), 
 
 To cite these scripts: https://doi.org/10.15454/3PPKCL 
 
-For more details about hydrological modelling R packages, see Astagneau et al. (submitted).
+For more details about hydrological modelling R packages, see [Astagneau et al., 2020](https://hess.copernicus.org/preprints/hess-2020-498/).
 

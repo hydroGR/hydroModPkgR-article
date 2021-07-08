@@ -27,7 +27,11 @@ topmodel     | [Buytaert, 2018](https://CRAN.R-project.org/package=topmodel)|
 TUWmodel     | [Parajka et al., 2007](https://doi.org/10.1002/hyp.6253); [Viglione and Parajka, 2020](https://CRAN.R-project.org/package=TUWmodel) |
 WALRUS       | [Brauer et al., 2014a](https://doi.org/10.5194/gmd-7-2313-2014), [2014b](https://doi.org/10.5194/hess-18-4007-2014); [Brauer et al., 2017](https://github.com/ClaudiaBrauer/WALRUS) |
 
-To cite these scripts: https://doi.org/10.15454/3PPKCL 
+To cite these scripts:
 
-For more details about hydrological modelling R packages, see [Astagneau et al., 2020](https://hess.copernicus.org/preprints/hess-2020-498/).
+- https://doi.org/10.15454/3PPKCL 
+
+Related Publication:
+
+- Astagneau, P. C., Thirel, G., Delaigue, O., Guillaume, J. H. A., Parajka, J., Brauer, C. C., Viglione, A., Buytaert, W., and Beven, K. J.: Technical note: Hydrology modelling R packages – a unified analysis of models and practicalities from a user perspective, Hydrol. Earth Syst. Sci., 25, 3937–3973, https://doi.org/10.5194/hess-25-3937-2021, 2021. 
 
